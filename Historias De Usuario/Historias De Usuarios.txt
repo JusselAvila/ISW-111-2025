@@ -1,0 +1,41 @@
+HISTORIAS DE PERFIL 
+
+--Interacción entre Usuarios
+
+Como <Rol, Persona>
+	Como consumidor
+Quiero <Objetivo, comportamiento>
+	Quiero poder interactuar con otras personas con gustos musicales que los mios
+Para <Motivo, razón, valor>
+	Para poder estar en contacto con personas con los mismos gustos que los mios
+
+Dado que el consumidor ha creado un perfil en la plataforma y ha indicado sus géneros musicales favoritos, y ha completado su información de perfil,
+Cuando el consumidor busca otros usuarios con gustos musicales similares, y selecciona un usuario de la lista de resultados, y envía un mensaje a ese usuario,
+Entonces el consumidor debe recibir una notificación de que su mensaje ha sido enviado correctamente, y el usuario seleccionado debe recibir el mensaje en su bandeja de entrada, y el consumidor debe poder ver el perfil del usuario seleccionado, y debe haber una opción para unirse a eventos relacionados con sus géneros musicales favoritos en el perfil del usuario.
+
+--Reproducción de música
+
+Como <Rol, Persona>
+	Como consumidor
+Quiero <Objetivo, comportamiento>
+	Quiero poder reproducir musica
+Para <Motivo, razón, valor>
+	Escuchar Música
+
+Dado que el consumidor ha iniciado sesión en la aplicación de música, y ha creado o seleccionado una lista de reproducción,
+Cuando el consumidor selecciona una canción de la lista, y presiona el botón de reproducción,
+Entonces la música debe comenzar a reproducirse sin interrupciones, y el consumidor debe ver información sobre la canción que se está reproduciendo (título, artista, duración), y debe haber controles visibles para pausar, detener o cambiar la canción.
+
+--Historial de Reproducción
+
+Como <Rol, Persona>
+	Como consumidor
+Quiero <Objetivo, comportamiento>
+	Quiero poder ver mi historial
+Para <Motivo, razón, valor>
+	Al ver el historial, puedo encontrar fácilmentecanciones que disfruté anteriormente y que quizás olvidé.
+
+Dado que el consumidor ha iniciado sesión en la aplicación de música, y ha reproducido al menos una canción en el pasado,
+Cuando el consumidor navega a la sección de "Historial" en la aplicación, y selecciona la opción para ver su historial de reproducción,
+Entonces el consumidor debe ver una lista de canciones que ha reproducido anteriormente, y cada entrada en el historial debe mostrar información relevante (título de la canción, artista, fecha de reproducción), y debe haber una opción para volver a reproducir cualquier canción de la lista, y el consumidor debe poder filtrar o buscar en su historial para encontrar canciones específicas fácilmente.
+
